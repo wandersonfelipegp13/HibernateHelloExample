@@ -93,10 +93,10 @@ public class BookManager {
 		BookManager manager = new BookManager();
 		manager.setup();
 
-		// manager.create();
+		manager.create();
 		// manager.read();
 		// manager.update();
-		manager.delete();
+		// manager.delete();
 
 		manager.exit();
 	}
